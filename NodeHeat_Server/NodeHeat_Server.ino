@@ -41,9 +41,7 @@ void setup()
   WiFi.disconnect();
   delay(3000);
   Serial.println("START");
-  WiFi.begin("SLT-4G_1F24E4","6C22B7E5"); // HOME NETWORK.
-  //WiFi.begin("WIFI_SSID","PASSWORD"); // DEFAULT NETWORK.
-  //WiFi.begin("ARK","ARK@5010110"); // OFFICE NETWORK.
+  WiFi.begin("WIFI_SSID","WIFI_PASSWORD"); // YOUR NETWORK.
   while ((!(WiFi.status() == WL_CONNECTED))){
     delay(300);
     Serial.print("..");
