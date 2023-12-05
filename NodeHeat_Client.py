@@ -28,7 +28,7 @@ TEMP = " "
 #-------------------------------------------------------------------- OPEN THE TXT FILE PART.
 f = open("HeatmapData.txt", "w")
 #-------------------------------------------------------------------- CALIBRATION DELAY PART.
-print("STARTING ESP8266 THERMAL TELEMETRY SYSTEM")
+print("NODEHEAT CLIENT")
 time.sleep(2)
 print("THERMAL SCAN ON PROGRES...")
 print(" ")
